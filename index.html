@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Virtual Dice Roller</title> 
+    </head>
+    <body>
+        <main class="container"> 
+            <h1 class="main-header">Virtual Roll Dice</h1>
+            <div class="roll-container" id="dice-rolling-container">
+                <div class="roll-area" id="dice-rolling-area">
+                    <div class="dice face-one hidden" id="face-1"> <!-- start die 1 -->
+                        <span class="dot"></span>
+                    </div>
+                    <div class="dice face-one hidden" id="face-1-1">
+                        <span class="dot"></span>
+                    </div>
+                    <div class="dice face-one hidden" id="face-1-2">
+                        <span class="dot"></span>
+                    </div>
+                    <div class="dice face-one hidden" id="face-1-3">
+                        <span class="dot"></span>
+                    </div>
+                    <div class="dice face-two hidden" id="face-2"> <!-- start die 2 -->
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-two hidden" id="face-2-1">
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-two hidden" id="face-2-2">
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-two hidden" id="face-2-3">
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-three hidden" id="face-3"> <!-- start die 3 -->
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-three hidden" id="face-3-1">
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-three hidden" id="face-3-2">
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-three hidden" id="face-3-3">
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                    </div>
+                    <div class="dice face-four hidden" id="face-4"> <!-- start die 4 -->
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-four hidden" id="face-4-1">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-four hidden" id="face-4-2">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-four hidden" id="face-4-3">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-five hidden" id="face-5"> <!-- start die 5 -->
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-five hidden" id="face-5-1">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-five hidden" id="face-5-2">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-five hidden" id="face-5-3">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-six hidden" id="face-6"> <!-- start die 6 -->
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-six hidden" id="face-6-1">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-six hidden" id="face-6-2">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                    <div class="dice face-six hidden" id="face-6-3">
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                        <div class="column">
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                            <span class="dot"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="header" id="header-choose">Choose amount of dice: </h2>
+            <div class="dice-amount" id="dice-amount-area">
+                <button class="dice-amount-btn" id="dice-1">1</button>
+                <button class="dice-amount-btn" id="dice-2">2</button>
+                <button class="dice-amount-btn" id="dice-3">3</button>
+                <button class="dice-amount-btn" id="dice-4">4</button>
+            </div>
+            <div class="roll-button-area" id="dice-roll-button">
+                <button class="roll-button hidden" id="roll-btn">Roll</button>
+            <div>
+            <h3 class="header" id="total-header">Total</h3> 
+            <p id="total-amt">16</p> <!-- placeholder amount --> 
+            <div class="roll-button-area" id="reset-button">
+                <button class="reset-button hidden" id="reset-btn">Reset</button>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

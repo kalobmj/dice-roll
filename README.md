@@ -1,2 +1,1 @@
-# dice-roll
-dice roller project
+dice roller project june 2024

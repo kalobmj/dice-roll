@@ -10,6 +10,7 @@ body {
     overflow-y: scroll;
     height: 100vh;
     background: linear-gradient(#4E44B0, #b940A3)
+    width: auto;
 }
 
 .container {

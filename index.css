@@ -1,4 +1,7 @@
-* {
+html, body {
+    margin: 0;
+    padding: 0;
+}* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +13,6 @@ body {
     overflow-y: scroll;
     height: 100vh;
     background: linear-gradient(#4E44B0, #b940A3)
-    width: auto;
 }
 
 .container {

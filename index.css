@@ -182,7 +182,6 @@ p[id="total-amt"] {
     background: linear-gradient(#FF9671, #FFC75F);
     border-radius: 10px;
     font-size: 18px;
-    box-shadow: 2px 2px 2px;
 }
 
 .roll-button {
@@ -193,7 +192,6 @@ p[id="total-amt"] {
     background: linear-gradient(#FF9671, #FFC75F);
     border-radius: 10px;
     font-size: 20px;
-    box-shadow: 2px 2px 2px;
 }
 
 div[id="reset-button"] {
@@ -210,5 +208,5 @@ div[id="reset-button"] {
     border: none;
     background: linear-gradient(#FF9671, #FFC75F);
     border-radius: 10px;
-    box-shadow: 2px 2px 2px;
+
 }

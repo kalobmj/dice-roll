@@ -212,3 +212,16 @@ div[id="reset-button"] {
     border-radius: 10px;
 
 }
+
+@media only screen and (min-width: 800px) {
+    
+    .roll-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+}

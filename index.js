@@ -256,7 +256,6 @@ function showBtns() {
 
 function rollingDice(num) {
     let localNums = getRandomNums();
-    console.log(localNums)
         switch (num) {
             case 1:
                 displayDice(localNums[0]);

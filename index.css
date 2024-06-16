@@ -147,8 +147,16 @@ body {
     justify-content: center;
 }
 
+h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
 h3 {
     font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 p[id="total-amt"] {
@@ -168,14 +176,24 @@ p[id="total-amt"] {
 }
 
 .dice-amount-btn {
-    height: 40px;
-    width: 35px;
+    height: 50px;
+    width: 45px;
+    border: none;
+    background: linear-gradient(#FF9671, #FFC75F);
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px;
 }
 
 .roll-button {
-    width: 75px;
-    height: 40px;
+    width: 85px;
+    height: 50px;
     margin: auto;
+    border: none;
+    background: linear-gradient(#FF9671, #FFC75F);
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px;
 }
 
 div[id="reset-button"] {
@@ -184,8 +202,13 @@ div[id="reset-button"] {
 }
 
 .reset-button {
-    width: 60px;
-    height: 30px;
+    width: 70px;
+    height: 35px;
     margin: auto;
+    margin-right: px;
     align-items: center;
+    border: none;
+    background: linear-gradient(#FF9671, #FFC75F);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
 }
